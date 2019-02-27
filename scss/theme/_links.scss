@@ -1,0 +1,7 @@
+a {
+  @include link($light, $white, true);
+
+  &.swtk-light {
+      @include link($light, $white, false);
+  }
+}
